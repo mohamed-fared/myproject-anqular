@@ -1,0 +1,137 @@
+
+body{
+	background-color: lightgray ;
+	
+}
+img {
+	 
+	transform: translateX(610%);
+	width: 100px;
+	padding: 2px;
+}
+
+.container .mx5 h1 {
+  text-align: center;
+}
+
+#btn-save-info{
+	text-align: center;
+	margin: 5px;
+}
+.btn-remove {
+	text-align:  right;
+}
+
+#btn-delete-display-info {
+
+	width: 30px;
+    height: 30px;
+    border-radius: 40%;
+    margin: 5px;
+}
+
+#displayInfo h3{
+	width: 100px
+}
+#redFlag{
+	background-color: coral; 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 45%;
+	
+}
+
+#displayInfo{
+
+    background-color: #DAF7A6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 45%;
+}
+
+#create-passenger-form {
+
+    border: 2px solid black;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .mx5{
+	/*text-align: center ;*/
+
+}
+
+#row1-create-passenger-form{
+	display: flex;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+#row2-create-passenger-form{
+	display: flex;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: space-evenly;
+
+}
+#btn-save-passangerData{
+	width: 70px;
+    height: 20px;
+}
+.passenger-form input {
+	width: 150px;
+    border: 1px solid #eee;
+	border-radius: 1px;
+}
+
+#row-search-passenger {
+
+	border: 2px solid black;
+    width: 49%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+#row1-display-info {
+	display: flex;
+    justify-content: space-evenly;
+}
+
+#row2-display-info {
+	display: flex;
+    justify-content: space-evenly;
+}
+#row1-redflag-info {
+	display: flex;
+    justify-content: space-evenly;
+}
+#row2-redflag-info {
+	display: flex;
+    justify-content: space-evenly;
+}
+
+#display .col{
+	display: flex;
+    align-items: center;
+}
+
+#row-search {
+
+	display: flex;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+
+}
+#row-search input {
+	width: 200px;
+}

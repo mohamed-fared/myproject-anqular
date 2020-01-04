@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Passport Control</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<main>
+		<section>
+			<div class="container">
+				<div class="container mx5">
+					<div class="row">
+						<div class="col">
+                       		<!-- <img src="img/passport-image.png"> -->
+                        </div>    
+                    </div>
+					<div class="row">
+						<div class="col">
+                        <h1> Passport Control</h1>
+                        </div>    
+                    </div>
+                    <div class="row">
+                   	 <form  class="passenger-form" id="create-passenger-form" >
+                   	 	<div class="row" id="row1-create-passenger-form">
+	                    	<div class="col">	
+	                    		<label class="label">Name:</label>
+	                    		<input id="first-name" type="text"></input>
+	                    	</div>
+	                    	<div class="col">
+	                    		<label class="label">Middle name:</label>
+	                    		<input id="middle-name" type="text"></input>
+	                    	</div>
+	                    	<div class="col">
+	                    		<label class="label">Last name:</label>
+	                    		<input id="last-name" type="text"></input>
+	                    	</div>
+	                    </div>
+	                    <div class="row" id="row2-create-passenger-form">
+	                    	<div class="col">
+	                    		<label class="label">Passport number:</label>
+	                    		<input id="passPort-number" type="text"></input>
+	                    	</div>
+	                    	<div class="col">
+	                    		<label class="label">Country:</label>
+	                    		<input id="country" type="text"></input>
+	                    	</div>
+	                    	<div class="col">
+	                    		<label class="label">Date Of Birth:</label>
+	                    		<input id="Date-Of-Birth" type="date"></input>
+	                    	</div>
+	                    	<div class="col">
+	                    		 <select class="input" name="list" id="list-gender-select">
+	                    		 	<option value="Male">Male</option>
+	                    		 	<option value="Female">Female</option>
+	                    		 </select>
+	                   		 </div>
+                    	</div>
+                    	<div class="col" id="btn-save-info">
+                    		<button id="btn-save-passangerData">Save</button>
+                    	</div>
+                   	 </form>
+                    <div class="row" id="row-search-passenger">
+                    	<form id="search-passenger-form">
+                    		<div class="row" id="row-search">
+	                    		<div class="col">
+	                    			<label>Passport Number:</label>
+	                    			<input id="search-passPort-nu"></input>
+	                    		</div>
+	                    		<div class="col">
+	                    			<label>Last Name</label>
+	                    			<input id="search-last"></input>
+	                    		</div>
+	                    		<div class="col">
+	                    			<button id="search">Search</button>
+	                    		</div>
+                    		</div>
+                    	</form>
+                    </div>
+                    <div class="row">
+                    	<div class="col">
+                    		<div id="display">
+                    		</div>	
+                    	</div>
+                    </div>
+                    </div>	
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/Classes.js"></script>
+	<script type="text/javascript">
+	</script>
+</body>
+</html>
+

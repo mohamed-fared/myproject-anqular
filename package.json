@@ -1,0 +1,28 @@
+{
+  "name": "rbktn01-mvp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamed-fared/rbktn01-mvp.git"
+  },
+  "author": "mohamed fared",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamed-fared/rbktn01-mvp/issues"
+  },
+  "homepage": "https://github.com/mohamed-fared/rbktn01-mvp#readme",
+  "dependencies": {
+    "angular": "^1.7.9",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.4",
+    "morgan": "^1.9.1"
+  }
+}
